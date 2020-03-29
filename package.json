@@ -1,0 +1,81 @@
+{
+  "name": "gatsby-typescript-blog",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby using typescript",
+  "version": "0.1.0",
+  "author": "Makoto Nakano <m.nakano@gmail.com>",
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-regular-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "gatsby": "^2.3.32",
+    "gatsby-cli": "^2.5.12",
+    "gatsby-image": "^2.0.40",
+    "gatsby-plugin-canonical-urls": "^2.0.13",
+    "gatsby-plugin-catch-links": "^2.0.15",
+    "gatsby-plugin-emotion": "^4.0.6",
+    "gatsby-plugin-feed": "^2.3.29",
+    "gatsby-plugin-google-analytics": "^2.0.20",
+    "gatsby-plugin-lodash": "^3.0.5",
+    "gatsby-plugin-manifest": "^2.0.29",
+    "gatsby-plugin-offline": "^2.1.1",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-robots-txt": "^1.4.0",
+    "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-plugin-sitemap": "^2.1.0",
+    "gatsby-plugin-twitter": "^2.0.13",
+    "gatsby-plugin-typescript": "^2.0.13",
+    "gatsby-plugin-typography": "^2.2.13",
+    "gatsby-remark-autolink-headers": "^2.1.3",
+    "gatsby-remark-code-titles": "^1.1.0-rc.0",
+    "gatsby-remark-copy-linked-files": "^2.0.12",
+    "gatsby-remark-embed-gist": "^1.1.7",
+    "gatsby-remark-images": "^3.0.11",
+    "gatsby-remark-prismjs": "^3.2.9",
+    "gatsby-remark-responsive-iframe": "^2.1.1",
+    "gatsby-remark-smartypants": "^2.0.9",
+    "gatsby-source-filesystem": "^2.0.32",
+    "gatsby-transformer-remark": "^2.3.12",
+    "gatsby-transformer-sharp": "^2.1.18",
+    "gatsby-transformer-yaml": "^2.1.12",
+    "moment": "^2.24.0",
+    "prismjs": "^1.16.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-adsense": "^0.1.0",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-share": "^3.0.0",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-wordpress-2016": "^0.16.19"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "npm run format & gatsby develop",
+    "format": "npm run format:src & npm run format:config",
+    "format:src": "prettier --write src/**/*.{js,jsx,ts,tsx}",
+    "format:config": "prettier --write gatsby-node.js",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NakanoMakoto/gatsby-typescript-blog"
+  },
+  "bugs": {
+    "url": "https://github.com/NakanoMakoto/gatsby-typescript-blog/issues"
+  }
+}
