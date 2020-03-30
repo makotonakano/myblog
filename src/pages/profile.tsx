@@ -64,11 +64,11 @@ const ProfilePage = () => (
       <ImgByPath filename="profile/profile.jpg" />
     </PImg>
     <div>
-      <SnsLink href="https://github.com/NakanoMakoto">
+      <SnsLink href="https://github.com/makotonakano">
         <FontAwesomeIcon size="3x" color="#333" icon={faGithubSquare} />
       </SnsLink>
 
-      <SnsLink href="https://twitter.com/mabumaburi">
+      <SnsLink href="https://twitter.com/up_pff">
         <FontAwesomeIcon size="3x" color="#3eaded" icon={faTwitterSquare} />
       </SnsLink>
     </div>
